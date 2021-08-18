@@ -55,7 +55,7 @@ public void testCase1() throws IOException, InterruptedException {
 	
 	//Assert.assertEquals("Verify email", "JAVA", attribute);
 	enterDetails(l.getUserText(),getData(1,0));
-	enterDetails(l.getUserPassWord(),getData(1,1));
+	enterDetails(l.getUserPassWord(),getData(1,2));
 	enterClick(l.getLoginButton());
 	Thread.sleep(2000);
 	
@@ -69,7 +69,7 @@ public void testCase2() throws IOException, InterruptedException {
 	System.out.println(pageurl);
 	LoginPojo l = new LoginPojo();
 	enterDetails(l.getUserText(),getData(2,0));
-	enterDetails(l.getUserPassWord(),getData(2,1));
+	enterDetails(l.getUserPassWord(),getData(2,2));
 	enterClick(l.getLoginButton());
 	Thread.sleep(2000);
 
